@@ -15,6 +15,12 @@ h1 {
 
 }
 
+h2 {
+  font-size: 36px;
+  font-style: extra-bold;
+  color: #1F2937;
+}
+
 h3 {
   font-size: 24px;
 }
@@ -23,3 +29,13 @@ h3 {
   color:  #E5E7EB;
 }
 
+button {
+  color: #3882F6;
+}
+
+.divMain3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
