@@ -1,12 +1,22 @@
 
-div {
+* {
   border: 0px;
+  margin: 0px;
+  padding: 0px;
   font-size: 18px;
 }
 
-header, .divMain1, footer {
+.mainDiv { 
+  display: flex;
+}
+
+header, #mainDiv1, footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+header, footer, .mainDiv {
+    padding: 10px;
 }
 
 h1 {
@@ -25,15 +35,16 @@ h3 {
   font-size: 24px;
 }
 
-.divMain1 p {
+#mainDiv1 p {
   color:  #E5E7EB;
 }
 
 button {
-  color: #3882F6;
+  background-color: #3882F6;
+  color: #E5E7EB;
 }
 
-.divMain3 {
+#mainDiv3 {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: light italic;
