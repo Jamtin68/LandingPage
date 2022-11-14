@@ -56,9 +56,9 @@ h2 {
   text-align: center;
 }
 
-.h3 {
+h3 {
   font-size: 24px;
-  align-content: left;
+  justify-items: left;
 }
 
 #mainDiv1 p {
@@ -101,9 +101,14 @@ button {
   min-width: 500px;
 }
 
-header a  {
-  
-  justify-content: right;
+header .format {
+  justify-content: left;
+  align-items: center;
+}
+
+header p {
+  justify-self: flex-end;
+  margin-left: auto;
 }
 
 .mainDiv .format {
