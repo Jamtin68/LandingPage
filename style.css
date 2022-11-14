@@ -4,10 +4,26 @@
   margin: 0px;
   padding: 0px;
   font-size: 18px;
+  box-sizing: border-box;
+  justify-content: center;
+  font-family: sans-serif;
 }
 
-.mainDiv { 
+.body {
+  max-width: 900px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/**
+div {
+  border-style: solid;
+  border-width: 2px;
+}**/
+
+.mainDiv { 
+  justify-items: center;
 }
 
 header, #mainDiv1, footer {
@@ -21,18 +37,19 @@ header, footer, .mainDiv {
 
 h1 {
   font-size: 48px;
-  font-style: extra-bold;
+  font-weight: extra-bold;
 
 }
 
 h2 {
   font-size: 36px;
-  font-style: extra-bold;
+  font-weight: extra-bold;
   color: #1F2937;
 }
 
-h3 {
+.h3 {
   font-size: 24px;
+  align-content: left;
 }
 
 #mainDiv1 p {
@@ -42,11 +59,53 @@ h3 {
 button {
   background-color: #3882F6;
   color: #E5E7EB;
+  border-radius: 8px;
+  border: 2px solid #E5E7EB;
+  padding: 4px 20px;
 }
 
 #mainDiv3 {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+}
+
+#mainDiv4 .format {
+  background-color: #3882F6;
+  border-radius: 8px;
+  color: #E5E7EB;
+}
+
+.format {
+  margin: 0px 100px;
+  display: flex;
+  min-width: 500px;
+}
+
+header a {
+  align-content: right;
+}
+
+.mainDiv .format {
+  margin: 40px 100px;
+}
+
+#div4Title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#mainDiv2 .format {
+  flex-direction: column;
+}
+
+#div2Content {
+  flex-direction: row;
+  display: flex;
+}
+
+.infoBox {
+  max-width: 150px;
 }
