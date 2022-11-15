@@ -17,7 +17,7 @@ body {
 }
 
 .body {
-  width: 900px;
+  width: 1250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
 
 
 div {
-  /**border-style: solid;**/
+  /**border-style: solid; **/
   border-width: 2px;
 }
 
@@ -69,24 +69,27 @@ button {
   background-color: #3882F6;
   color: #E5E7EB;
   border-radius: 8px;
-  border: 2px solid #E5E7EB;
   padding: 4px 20px;
+  margin: 4px 0px;
 }
 
 #mainDiv3 {
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 18px;
     
     color: #1F2937;
 }
 
-#div3Quote {
+#div3Quote p {
+  font-size: 36px;
   font-style: italic;
   font-weight: lighter;
 }
 
 #div3Quotee {
   text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 #mainDiv4 .format {
@@ -96,7 +99,7 @@ button {
 }
 
 .format {
-  margin: 0px 100px;
+  margin: 0px 170px;
   display: flex;
   min-width: 500px;
 }
@@ -104,6 +107,7 @@ button {
 header .format {
   justify-content: left;
   align-items: center;
+  height: 40px;
 }
 
 header p {
@@ -112,7 +116,7 @@ header p {
 }
 
 .mainDiv .format {
-  margin: 40px 100px;
+  margin: 40px 170px 100px;
 }
 
 #div4Title {
@@ -122,6 +126,14 @@ header p {
 
 #mainDiv2 .format {
   flex-direction: column;
+}
+
+#mainDiv3 .format {
+  margin: 40px 170px;
+}
+
+#mainDiv4 .format {
+  margin: 100px 170px;
 }
 
 #div2Content {
@@ -147,4 +159,44 @@ header p {
 
 .infoBox p {
   text-align: center;
+  font-size: 16px;
+}
+
+a {
+  margin: 0px 5px;
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+#div1Text, #div1Image {
+  height: 240px;
+  width: 420px;
+}
+
+#div1Image {
+  background-color: #E5E7EB;
+  margin-left: auto;
+}
+
+#div1Image p {
+  color:#1F2937
+}
+
+#div3Content, #div4Content {
+  padding: 40px 90px;
+}
+
+#div4Content {
+  display: flex;
+  justify-content: left;
+}
+
+#div4Button {
+  margin-left:100px;
+  display:flex;
+  align-items: center;
+}
+
+#div4Button button {
+  border: 2px solid #E5E7EB;
 }
